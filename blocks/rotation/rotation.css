@@ -1,0 +1,15 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+
+.rotation {
+    animation-name: rotation; /* кейфрейм - rotation */
+    animation-timing-function: linear; /* перемещение происходит с постоянной скоростью от начала и до конца */
+    animation-iteration-count: infinite; /* анимация повторяется бесконечно */
+    animation-duration: 20s; /* хронометраж анимации */
+}

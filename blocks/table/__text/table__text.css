@@ -1,0 +1,14 @@
+.table__text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+.table__text_top {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: black;
+}
